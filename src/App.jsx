@@ -2,7 +2,7 @@ import { Providers, ProviderState } from "@microsoft/mgt-element";
 import { Login } from "@microsoft/mgt-react";
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Mails from "./components/mails";
+import Mails from "./components/Mails2";
 
 function useIsSignedIn() {
   const [isSignedIn, setIsSignedIn] = useState(false);
